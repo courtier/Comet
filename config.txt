@@ -1,0 +1,33 @@
+#amount of requests per account, 3 is guaranteed
+requests=3
+
+#put a url to your skin(.png) here, if you do not want to change the skin do "skin=no"
+skin=https://i.ibb.co/NWF3fm3/247ee451439d8c24c887bc2e9cc9e065a24e5b11.png
+
+#true -> sends webhook, false -> doesn't
+webhook=true
+
+#webhook embed thumbnail image, if you just want the skin render do "thumbnail=default"
+thumbnail=https://s1.gifyu.com/images/cometskin.gif
+
+#true -> warms up, false -> doesn't, I suggest setting this to true
+warmup=true
+
+#true -> will get ping to mojang and account for it, false -> won't
+#won't be used if proxies are being used
+ping=true
+
+#slows down authentication of accounts (0 for fastest) (5 = logs in in 5 seconds)
+slowauth=0
+
+#starts authentication this many seconds before drop (min. 40 will be changed in code if lower)
+auth=40
+
+#true -> save logs to a file
+savelogs=true
+
+#true -> comet ends itself without consent
+killprocess=false
+
+#true -> uses namemc through proxy, use if ip banned
+namemcproxy=false
